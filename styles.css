@@ -147,7 +147,6 @@ nav ul li a:hover {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
         align-items: center;
         gap: 10px;
     }
@@ -169,7 +168,7 @@ nav ul li a:hover {
     }
 
     .movie {
-        width: 140px;
+        width: 100px;
     }
 
     .moviename {
