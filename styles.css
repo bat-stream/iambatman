@@ -166,7 +166,6 @@ nav ul li a:hover {
     #movieList {
         justify-content: center;
         gap: 15px;
-        padding: 10px;
     }
 
     .movie {
