@@ -1,0 +1,10 @@
+bash
+RewriteEngine On
+
+# Remove .html extension from index.html and page1.html
+RewriteRule ^index$ index.html [L]
+RewriteRule ^page1$ page1.html [L]
+
+# Prevent direct access to .html files
+RewriteCond %{REQUEST_FILENAME} \.html$
+RewriteRule ^(.*)$ - [R=404,L]

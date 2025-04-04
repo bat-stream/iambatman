@@ -1,0 +1,160 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+a {
+    text-decoration: none;
+}
+
+.logoimg {
+    width: 220px;
+    height: 90px;
+    margin-top: -22px;
+    -webkit-filter: drop-shadow(2px 2px 0px red);
+}
+
+
+#search {
+    padding: 10px;
+    border: none;
+    border-radius: 33px;
+    box-shadow: 3px 3px 1px red;
+}
+#search:hover {
+    color: blue;
+    transform: scale(1.1);
+    
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-filter: drop-shadow(2px 2px 0px red);
+    text-align: center;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+       
+}
+
+.movie {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-right: 12px;
+    transition: transform 0.4s ease-in-out;
+    
+}
+
+.movie img {
+    width: 180px;
+    height: 270px;
+    border-radius: 12px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.moviename {
+    font-size: 20px;
+    text-align: center;
+    -webkit-filter: drop-shadow(1px 1px 0px blue);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+}
+
+.movie:hover img {
+    box-shadow: 1px 1px 3px red;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    -webkit-filter: drop-shadow(1px 1px 0px blue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+    margin-top: -22px;
+    margin-left: -32px;
+    font-weight: bold;
+    
+}
+
+.imgtxt {
+    text-align: center;
+    margin-top: -2px;
+    color: red;
+    font-size: 18px;
+
+}
+.txt {
+    font-family:'Times New Roman', Times, serif;
+}
+.linktxt {
+    text-decoration: none;
+}
+.mv img{
+    width: 230px;
+    height: 270px;
+}
+.moviepage {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .movie-list{
+        justify-content: center;
+    }
+
+}
+
