@@ -179,6 +179,7 @@ nav ul li a:hover {
 
     nav ul {
         gap: 8px;
+        display: flex;
     }
 
     nav ul li a {
